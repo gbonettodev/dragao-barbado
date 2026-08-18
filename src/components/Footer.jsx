@@ -75,15 +75,6 @@ function Footer() {
 
           <a
             href="/contato"
-            onClick={(event) => {
-              if (window.location.pathname === "/") {
-                event.preventDefault();
-                const target = document.getElementById("contato");
-                if (target) {
-                  target.scrollIntoView({ behavior: "smooth", block: "start" });
-                }
-              }
-            }}
             className="text-sm text-[#999] transition-colors hover:text-[#D6B892]"
           >
             Contato

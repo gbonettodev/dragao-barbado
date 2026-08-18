@@ -84,16 +84,7 @@ function NavBar() {
 
           <a
             href="/contato"
-            onClick={(event) => {
-              closeMenu();
-              if (window.location.pathname === "/") {
-                event.preventDefault();
-                const target = document.getElementById("contato");
-                if (target) {
-                  target.scrollIntoView({ behavior: "smooth", block: "start" });
-                }
-              }
-            }}
+            onClick={closeMenu}
             className={linkClasses}
           >
             Contato

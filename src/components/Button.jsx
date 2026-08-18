@@ -29,16 +29,6 @@ function Button({
 
   const handleClick = (event) => {
     if (onClick) onClick(event);
-
-    if (!href || href === "/") return;
-
-    if (href === "/contato" && window.location.pathname === "/") {
-      event.preventDefault();
-      const target = document.getElementById("contato");
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }
   };
 
   if (href) {
