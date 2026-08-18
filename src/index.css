@@ -1,0 +1,28 @@
+﻿@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@theme{
+  --color-dragon-black: #0D0D0D;
+  --color-dragon-dark: #171513;
+  --color-dragon-brownDark: #2A1A14;
+  --color-dragon-brown: #5C3825;
+  --color-dragon-brownLight: #8B5E3C;
+  --color-dragon-beige: #D6B892;
+  --color-dragon-white: #F5F2ED;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
